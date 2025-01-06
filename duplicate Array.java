@@ -10,12 +10,10 @@ class Main {
             if(arr[i]!=arr[j])
             {
                 j++;
-                int temp = arr[j];
                 arr[j] = arr[i];
-                arr[i] = temp;
             }
         }
-        for(int i=0;i<j;i++)
+        for(int i=0;i<=j;i++)
         {
         System.out.print(arr[i] + " ");
         }
@@ -23,6 +21,5 @@ class Main {
 }
 
 /*
-OutPut
-21 35 47 56 
+21 35 47 56 68 
 */
