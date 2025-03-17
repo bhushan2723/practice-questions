@@ -1,9 +1,8 @@
 class Solution {
-    public int myAtoi(String s) {
+    public int myAtoi(String s) 
+        {
         int i = 0, n = s.length(), sign = 1, result = 0;
-        
-     
-        while (i < n && s.charAt(i) == ' ') {
+          while (i < n && s.charAt(i) == ' ') {
             i++;
         }
         
